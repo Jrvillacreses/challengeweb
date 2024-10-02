@@ -1,0 +1,39 @@
+body{
+    background-color: #3d3d3d;
+}
+.menu{
+    float:left;
+    width: 100%;
+    border-bottom: white 1px solid;
+}
+#logo img{
+    width: 250px;
+    padding: 25px;
+    margin-left: 5%;
+}
+.menu div{
+    float: left;
+    width: 50%;
+}
+.menu #nav ul li{
+    float: left;
+    width: 30%;
+    padding : 20px 10px;
+    list-style: none;
+}
+.menu #nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*.menu #nav ul li:hover{
+    background-color: white;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}*/
+.menu #nav ul li a:hover{
+    color: #87c9a4;
+    text-decoration: none;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
